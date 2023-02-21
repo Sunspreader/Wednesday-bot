@@ -2,11 +2,16 @@
 
 install:
 
-	@mkdir /home/${USER}/bot_f
-	@cp -r events /home/${USER}/bot_f/events
-	@cp -r media /home/${USER}/bot_f/media
-	@cp -r log /home/${USER}/bot_f/log
-	@echo "All folders are set up!"
-	@env/cronjob.sh
-	@echo "Jobs are all set up!"
+	@rm -rf /opt/bot
+
+	@mkdir /opt/bot
+
+	@cp -r events /opt/bot/
+
+	@cp -r media /opt/bot/
+
+	@cp -r log /opt/bot/
+
+	@./env/cronjob.sh
+
 
