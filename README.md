@@ -5,7 +5,7 @@ My personal telegram bot that sends some wednesday frogs
 Make and Json_pp
 
 ### Installation:
-    make install
+    sudo make install
 
 ### Usage:
 
