@@ -9,5 +9,5 @@ Make and Json_pp
 
 ### Usage:
 
-Drop your .png/.jpg pictures to media folder.
-Add your frog facts to events/source/fact_container.sh
+Drop your .png/.jpg pictures to /opt/bot/media folder.
+Add your frog facts to opt/bot/events/source/fact_container.sh
